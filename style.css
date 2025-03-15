@@ -19,7 +19,7 @@ body{
 }
 
 #advert{
-    margin-top: 210px;
+    margin-top: 170px;
 }
 
 #text-header{
@@ -54,10 +54,14 @@ body{
     }
 }
 
-#who{
+#about-container #about{
     font-size: 60px;
-    margin-top: 8%;
-    margin-bottom: 5%;
+    margin-top: 30px;
+    margin-bottom: 15%;
+}
+ #about{
+    font-size: 60px;
+    margin-top: 60px;
 }
 
 #para1{
@@ -119,10 +123,10 @@ accordion-container{
     margin-top: 10%;
  }
 .form-container {    
-    padding: 50px;  
+    padding: 30px;  
     border-radius: 8px;  
     box-shadow: 0 2px 20px rgba(0,0,0,0.1);  
-    max-width: 600px;  
+    max-width: 650px;  
     margin: 50px auto;  
 }  
 
@@ -130,7 +134,7 @@ accordion-container{
     padding: 30px;
     border-radius: 8px;  
     box-shadow: 0 2px 20px rgba(0,0,0,0.1); 
-    max-width: 600px;    
+    max-width: 500px;    
     margin: 50px auto;  
 }  
 
@@ -145,4 +149,17 @@ accordion-container{
     align-items: center;
     justify-content: center;
     
+}
+#accordion-container{
+ background-color: #001F3F;
+ color: white;
+ font-weight: 500;
+}
+
+#accordion1{
+    background-color: bisque;
+}
+
+#accordion-conatainer1{
+    background-color: #001F3F;
 }
