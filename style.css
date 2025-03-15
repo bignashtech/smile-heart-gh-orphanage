@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+body{
+    background-color: rgb(189, 187, 187);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#nav-container{
+    background-color: transparent;
+    
+}
+#image-container{
+    height: 660px;
+}
+
+#image{
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.8);
+}
+
+#advert{
+    margin-top: 210px;
+}
+
+#text-header{
+    font-size: 80px;
+    font-weight: 400;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#text-paragrap{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#carouselExampleAutoplaying .carousel-inner .carousel-item img {
+    height: 100vh;
+    width: 100%;
+    /* Prevents pointer interactions */
+}
+
+.carousel-inner .carousel-item > img {
+    -webkit-animation: thing 30s linear infinite;
+    -o-animation: thing 30s linear infinite;
+    animation: thing 30s linear infinite;
+   
+}
+
+@keyframes thing {
+    from {
+        transform: scale(1, 1);
+    }
+    to {
+        transform: scale(1.5, 1.5);
+    }
+}
+
+#who{
+    font-size: 60px;
+    margin-top: 8%;
+    margin-bottom: 5%;
+}
+
+#para1{
+    margin-top: 30px;
+   
+}
+
+#card-container{
+    margin-top: 80px;
+}
+
+#our-work{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5%;
+}
+
+#btn-our-work{
+    padding: 10px 40px;
+    border-radius: none;
+}
+
+
+#image2{
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.5);
+    opacity: 0.8;
+}
+
+#text-header2{
+    font-size: 45px;
+    margin-top: 45px;
+    font-weight: 500;
+}
+
+#horizontal{
+    height: 4px;
+    margin-top: 35px;
+    background-color: white;
+    border-radius: 10px;
+    border: 5px;
+}
+
+#text-paragrap2{
+    font-size: 18px;
+}
+accordion-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+ footer{
+    background-color: #001F3F;
+    padding: 10px ;
+    margin-top: 10%;
+ }
+.form-container {    
+    padding: 50px;  
+    border-radius: 8px;  
+    box-shadow: 0 2px 20px rgba(0,0,0,0.1);  
+    max-width: 600px;  
+    margin: 50px auto;  
+}  
+
+#contact-container{    
+    padding: 30px;
+    border-radius: 8px;  
+    box-shadow: 0 2px 20px rgba(0,0,0,0.1); 
+    max-width: 600px;    
+    margin: 50px auto;  
+}  
+
+.form-title {  
+    text-align: center;  
+    margin-bottom: 20px;  
+    color: #343a40;  
+}  
+
+#map-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
